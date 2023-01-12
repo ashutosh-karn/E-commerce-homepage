@@ -1,0 +1,33 @@
+@media  screen and (max-width: 800px) {
+
+    .search input{
+        margin-left: -20px;
+    }
+    .mylinks a, .btnsrtlft button{
+        display: none;
+    }
+    .slider img{
+        width:800px;
+        height: auto;    
+    }    
+    .card{
+        font-size: medium;
+    }
+    .card img{
+        height: 100px;
+        width: auto;
+    }
+    
+}
+@media  screen and (max-width: 500px) {
+    .search{
+        position:absolute;
+        right: 5px;
+    }
+    .rightside{
+        display: none;
+    }
+    .card{
+        font-size: smaller;
+    }
+}

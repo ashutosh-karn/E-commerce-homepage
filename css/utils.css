@@ -1,0 +1,35 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 3px 7px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    overflow: hidden;
+}
+.container .card{
+    display: flex;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+.my-2 a{
+    text-decoration: none;
+    color:green;
+}
+.myflex-1{
+ margin: 0 20px;
+
+}
+.lines{
+   text-align: center;
+}
