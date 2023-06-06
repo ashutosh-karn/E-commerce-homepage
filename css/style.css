@@ -136,6 +136,10 @@ main{
     width:13px;
     padding:0;
 }
+
+.mySlides{
+    width: 100vw;
+}
 .slider{
     margin:auto;
     margin: 2px 0;
